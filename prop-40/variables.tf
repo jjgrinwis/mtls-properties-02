@@ -15,7 +15,3 @@ variable "hostnames" {
   type        = list(string)
   default     = []
 }
-
-variable "TFE_TOKEN" {
-  type = string
-}
