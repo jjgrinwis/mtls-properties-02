@@ -15,3 +15,9 @@ variable "hostnames" {
   type        = list(string)
   default     = []
 }
+
+variable "tfe_token" {
+  description = "our tfe token set via var set in HCP Terraform"
+  type        = string
+
+}
