@@ -9,3 +9,9 @@ variable "entitlement_id" {
     error_message = "Make sure you have a valid CPS entitlement id. So create certificate before trying to make a property. "
   }
 }
+
+variable "hostnames" {
+  description = "Hostname we're going to create."
+  type        = list(string)
+  default     = []
+}
