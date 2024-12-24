@@ -16,7 +16,6 @@ variable "hostnames" {
   default     = []
 }
 
-variable "tfe_token" {
+variable "TFE_TOKEN" {
   type = string
-
 }
