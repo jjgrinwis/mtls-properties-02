@@ -16,7 +16,7 @@ variable "entitlement_id" {
   nullable    = false
 
   validation {
-    condition     = length(var.entitlement_id) > 0
+    condition     = var.entitlement_id > 0
     error_message = "Make sure you have a valid CPS entitlement id. So create certificate before trying to make a property. "
   }
 }
